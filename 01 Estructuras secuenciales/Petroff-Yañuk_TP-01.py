@@ -31,34 +31,33 @@
 # print(f"El área de un círculo es: {area}")
 
 
-# radio = input("Ingrese el radio de un círculo: ") 
-# radio = int(radio) 
-# diametro = (2 * radio) 
-# diametro = int(diametro) 
-# perimetro = (diametro * 3.1416) 
-# perimetro = int(perimetro) 
-# area = (3.1416 * (radio * radio)) 
-# print(f"El diametro es: {diametro}") 
-# print(f"El perimetro es: {perimetro} ") 
-# print(f"El área de un círculo es: {area}")
-
-
 #5) Crear un programa que pida al usuario una cantidad de segundos e imprima por pantalla a cuántas horas equivale.
 
 # segundos = input("Ingresa un número: ")
 # segundos = float(segundos)
 # hora = segundos / 3600
 
-# print(hora)
+# print(f"Los {segundos} segundos que ingresaste, representa {hora} horas")
 
 # 6) Crear un programa que pida al usuario un número e imprima por pantalla la tabla de multiplicar de dicho número.
 
-# num = input("Ingresá un número del 0 al 9")
+print("Este programa te va a pedir un número.")
 
-# num = int(num)
+texto = input("Ingresá un número: ") 
+n = int(texto)                        
 
+print(f" La tabla de multiplicar del número {n} es:")
 
-
+print(f"{n} * 1 = {n * 1}")
+print(f"{n} * 2 = {n * 2}")
+print(f"{n} * 3 = {n * 3}")
+print(f"{n} * 4 = {n * 4}")
+print(f"{n} * 5 = {n * 5}")
+print(f"{n} * 6 = {n * 6}")
+print(f"{n} * 7 = {n * 7}")
+print(f"{n} * 8 = {n * 8}")
+print(f"{n} * 9 = {n * 9}")
+print(f"{n} * 10 = {n * 10}")
 
 
 # 7) Crear un programa que pida al usuario dos números enteros distintos del 0 y muestre por pantalla el resultado de sumarlos, dividirlos, multiplicarlos y restarlos.
@@ -98,10 +97,13 @@
 
 # 10) Crear un programa que pida al usuario 3 números e imprima por pantalla el promedio de dichos números.
 
-num1 = float(input("Ingresa un número: "))
-num2 = float(input("Ingresá otro número: "))
-num3 = float(input("Ingresá otro número: "))
+# num1 = float(input("Ingresa un número: "))
+# num2 = float(input("Ingresá otro número: "))
+# num3 = float(input("Ingresá otro número: "))
 
-suma = num1 + num2 + num3
-promedio = suma / 3
-print(f"El promedio de {num1}, {num2}, {num3} es: {promedio}")
+# suma = num1 + num2 + num3
+# promedio = suma / 3
+# print(f"El promedio de {num1}, {num2}, {num3} es: {promedio}")
+
+
+print("Fin del programa")
